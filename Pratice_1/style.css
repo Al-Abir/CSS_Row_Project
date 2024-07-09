@@ -1,40 +1,34 @@
 *{
-
     margin:0px;
     padding:0px;
     font-family: Arial, Helvetica, sans-serif;
-   
+
+}
+nav{
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+    position: sticky;
+    top: 0;
+    margin-bottom: 32px;
+    background: white;
+    padding: 10px;
+    z-index: 50;
 }
 
-nav{
+.navigation{
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
+.img-tag{
+    padding-left: 60px;
+}
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-.logo{
- 
-    color:white;
-   
-
+.icon{
+    padding-right: 60px;
+    font-size: 40px;
 }
-nav ul a{
-    text-decoration: none;
-    color:white
+nav{
+    border:2px solid white;
+    ta
 }
-nav ul li{
-   list-style: none;
-}
-nav ul{
-     display: flex;
-     gap:20px
- }
- header{
-    background-color: black;
- }

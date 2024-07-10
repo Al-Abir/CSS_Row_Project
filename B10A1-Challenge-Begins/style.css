@@ -38,13 +38,14 @@ nav{
 
     width: 998px;
     height: 582px;
-    background-color: aquamarine;
+
     margin: 0 auto;  
     display: flex;
     flex-direction: column;
     align-items: center;
+   
 }
-hero .hero-1 .img{
+.hero .hero-1 .im{
 
     margin: 0 auto;
     margin-top: 48px;
@@ -52,11 +53,9 @@ hero .hero-1 .img{
     height: 240px;
 }
 
-.hero-1 h2{
+.hero .hero-1 h2{
     margin-top: 38px;
     color: red;
-
-    
    
 }
 p{

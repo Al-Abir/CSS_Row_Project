@@ -63,10 +63,190 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border: none;
 }
 .banner-all-content{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 40px;
+   
+}
+
+.welcome{
+   max-width: 1320px;
+   height:600px;
+   margin:0 auto;
+   margin-top: 100px;
+   background-image: url(resources/Vectorrr.png);
+   background-blend-mode: overlay;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   border-radius: 15px;
+
+}
+
+.welcome-content{
+    
+        height: 600px;
+        width: 600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+}
+.welcome-content button{
+    padding: 10px 15px;
+    border: none;
+    transition: 0.2s ease-in-out;
+    align-self: flex-start;
+}
+
+
+/* place-section */
+.place-section{
+    max-width: 1320px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+.place-content{
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;    
+}
+.place-content span{
+    color: red;
+}
+
+/* coming soon */
+
+.coming-soon{
+    max-width: 1320px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+   
+}
+.coming-content{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.coming-pic{
+
+    border-radius: 50%;
+    margin-top: 20px;
+    border-color: 2px solid black;
+    
+}
+
+
+.coming-2nd-content{
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+     
+      margin-left: 20px;
+      
+}
+
+.coming-2nd-content img{
+    height: 200px;
+    width:100px
+    
+}
+
+/* dfdgfagdddddddddddddddddddddddddddddddddd */
+
+.functional{
+    max-width: 1320px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 120px;
+    border: 2px solid black;
+    background-color: antiquewhite;
+}
+.text{
+
+    height: 40px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+
+}
+
+/* ------discount Section-------- */
+.functional {
+    width: 100%;
+    max-width: 1320px;
+    height: 986px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+.text .highlight {
+    color: red;
+    font-size: 2em;
+}
+
+.text p {
+    font-size: 1em;
+    color: #555;
+}
+
+.celibration-box-discount {
+    max-width:1320px;
+    height: 750 px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid navy;
+}
+
+.box img {
+    max-width: 505px;
+    margin-top: 20px;
+}
+
+.discount img {
+    width: 200px;
+}
+
+.women img {
+    width: 300px;
+    margin-top: 20px;
+}
+
+.red-border img {
+    width: 100%;
+    height: 90px;
 }

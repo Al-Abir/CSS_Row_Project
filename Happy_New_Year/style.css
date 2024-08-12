@@ -206,8 +206,10 @@
 }
 
 .btnn{
-    margin-top: 48px;
-    margin-left: 10px;
+    
+    margin: 0 auto;
+    margin-top: 48px; 
+    margin-top: 1px;
     text-align: center ;
 }
 
